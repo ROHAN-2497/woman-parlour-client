@@ -42,6 +42,9 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <div className="text-center">
+        <button className="btn btn-secondary mt-20  bg-pink-600">Explore More</button>
+      </div>{" "}
     </div>
   );
 };
