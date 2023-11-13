@@ -4,7 +4,7 @@ import Service from "../Service/Service";
 const Home = () => {
   return (
     <div className="mb-20">
-      <Banner></Banner>
+      <Banner/>
       <Service></Service>
     </div>
   );
