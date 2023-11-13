@@ -4,7 +4,7 @@ import card3 from "../../../../src/assets/icons/Group 1374.png";
 import Container from "../../../Components/Container";
 const Service = () => {
   return (
-    <div className="mt-20 ">
+    <div className="py-20">
       <h3 className="text-3xl font-bold text-center">
         Our Awesome <span className="text-pink-600">Service</span>
       </h3>

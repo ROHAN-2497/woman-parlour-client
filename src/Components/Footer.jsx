@@ -1,7 +1,9 @@
+import Container from "./Container";
+
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer items-center p-10 bg-pink-600 text-primary-content h-[413px]">
+    <footer className="footer items-center p-10 bg-pink-600 text-primary-content ">
+      <Container>
         <div className="flex items-center gap-20">
           <div className="mb-16">
             <p className="font-bold">H#000 (0th Floor), Road #00,</p>
@@ -33,8 +35,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </footer>
-    </div>
+      </Container>
+    </footer>
   );
 };
 

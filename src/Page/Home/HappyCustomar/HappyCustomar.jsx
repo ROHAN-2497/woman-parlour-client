@@ -2,25 +2,37 @@ import Container from "../../../Components/Container";
 
 const HappyCustomar = () => {
   return (
-    <div>
+    <div className="bg-pink-50 py-32">
       <Container>
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row">
-          <img
-            src="/src/assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png"
-            className="max-w-sm  rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+        <div className="flex  gap-7 ">
+          <div className="w-1/2">
+            <img
+              src="/src/assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png"
+              className="p-6 rounded-md"
+            />
+          </div>
+          <div className="w-1/2 flex flex-col justify-center  pl-20">
+            <h1 className="text-5xl font-bold">
+              Let us handle your screen{" "}
+              <span className="text-pink-600">Professionally</span>.
+            </h1>
+            <p className="py-6 ">
+              With well written codes, we build amazing apps for all platforms,
+              mobile and web apps in general ipsum.Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Purus commodo ipsum.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <div className="flex gap-24">
+              <div className="">
+                <h3 className="text-pink-600 text-5xl font-bold">500+</h3>
+                <p>Happy Customer</p>
+              </div>
+              <div>
+                <h1 className="text-pink-600 text-5xl font-bold ">16+</h1>
+                <p>Total Service</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
       </Container>
     </div>
   );
