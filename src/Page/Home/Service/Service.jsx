@@ -1,13 +1,15 @@
 import card1 from "../../../../src/assets/icons/Group 1373.png";
 import card2 from "../../../../src/assets/icons/Group 1372.png";
 import card3 from "../../../../src/assets/icons/Group 1374.png";
+import Container from "../../../Components/Container";
 const Service = () => {
   return (
     <div className="mt-20 ">
       <h3 className="text-3xl font-bold text-center">
         Our Awesome <span className="text-pink-600">Service</span>
       </h3>
-      <div className="mt-20 grid grid-cols-3 gap-6 ">
+    <Container>
+    <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 ">
         <div className="card w-96 bg-gray-100 hover:shadow-xl p-10">
           <img src={card1} alt="Shoes" className="w-[72px] h-[72px] mx-auto" />
           <div className="card-body items-center text-center">
@@ -45,6 +47,7 @@ const Service = () => {
       <div className="text-center">
         <button className="btn btn-secondary mt-20  bg-pink-600">Explore More</button>
       </div>{" "}
+    </Container>
     </div>
   );
 };

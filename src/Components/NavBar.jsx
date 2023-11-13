@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Container from "./Container";
 
 const NavBar = () => {
   const navOption = (
@@ -20,8 +21,10 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 bg-pink-50">
-      <div className="navbar-start">
+    <div className=" bg-base-100 bg-pink-50">
+    <Container>
+  <div className="navbar">
+  <div className="navbar-start ">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -56,6 +59,8 @@ const NavBar = () => {
       <div className="navbar-end">
         <a className="btn bg-pink-600 w-[134px] h-[45px] text-white">Login</a>
       </div>
+  </div>
+    </Container>
     </div>
   );
 };
