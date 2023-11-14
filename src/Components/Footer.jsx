@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="footer items-center p-10 bg-pink-600 text-primary-content ">
       <Container>
-        <div className="flex items-center gap-20">
-          <div className="mb-16">
+        <div className="md:flex  items-center  md:gap-20">
+          <div className="mb-16 ">
             <p className="font-bold">H#000 (0th Floor), Road #00,</p>
             <p>New DOHS, Mohakhali, Dhaka, Bangladesh</p>
           </div>

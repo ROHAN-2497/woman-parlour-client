@@ -2,17 +2,17 @@ import Container from "../../../Components/Container";
 
 const HappyCustomar = () => {
   return (
-    <div className="bg-pink-50 py-32">
+    <div className="bg-pink-50 py-32  ">
       <Container>
-        <div className="flex  gap-7 ">
-          <div className="w-1/2">
+        <div className="flex w-full flex-col md:flex-row gap-7 ">
+          <div className="md:w-1/2">
             <img
               src="/src/assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png"
               className="p-6 rounded-md"
             />
           </div>
-          <div className="w-1/2 flex flex-col justify-center  pl-20">
-            <h1 className="text-5xl font-bold">
+          <div className="md:w-1/2 flex flex-col justify-center p-5 md:p-0  md:pl-20">
+            <h1 className="text-xl md:text-5xl font-bold">
               Let us handle your screen{" "}
               <span className="text-pink-600">Professionally</span>.
             </h1>

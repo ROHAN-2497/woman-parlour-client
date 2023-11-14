@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="bg-pink-50 ">
       <Container>
-        <div className="flex flex-col md:flex-row  justify-center items-center gap-8">
+        <div className="flex flex-col md:flex-row  justify-center items-center gap-0">
           <div className=" md:w-1/2 px-5">
             <h2 className="text-4xl font-bold text-black py-6">
               BEAUTY SALON <br /> FOR EVERY WOMEN
@@ -17,8 +17,8 @@ const Banner = () => {
               Get on Appointment
             </button>
           </div>
-          <div className=" md:w-1/2 ">
-            <img className="w-[484px] h-[478px] " src={banner} alt="" />
+          <div className="p-5 w-full md:w-1/2 ">
+            <img className="" src={banner} alt="" />
           </div>
         </div>
       </Container>
